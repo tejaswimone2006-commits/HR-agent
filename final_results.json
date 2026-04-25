@@ -1,0 +1,130 @@
+{
+    "generated_at": "2026-04-25T12:55:11.645085Z",
+    "ranking_results": [
+        {
+            "candidate_id": "C1",
+            "skills": [
+                "ml",
+                "api",
+                "numpy",
+                "rest",
+                "python",
+                "pandas"
+            ],
+            "score": 2.106
+        },
+        {
+            "candidate_id": "C2",
+            "skills": [
+                "java",
+                "spring",
+                "sql",
+                "microservices"
+            ],
+            "score": 1.2
+        },
+        {
+            "candidate_id": "C3",
+            "skills": [
+                "power bi",
+                "python",
+                "excel"
+            ],
+            "score": 0.943
+        },
+        {
+            "candidate_id": "c4",
+            "skills": [
+                "excel"
+            ],
+            "score": 0.3
+        }
+    ],
+    "interview_questions": {
+        "candidate_id": "C1",
+        "generated_at": "2026-04-25T12:55:11.645085Z",
+        "difficulty_level": "hard",
+        "technical": [
+            "Explain bias-variance tradeoff.",
+            "What is overfitting and how do you prevent it?",
+            "What are REST principles?",
+            "Explain idempotent HTTP methods.",
+            "Explain Python decorators and their use cases.",
+            "What is the difference between deep copy and shallow copy?"
+        ],
+        "behavioral": [
+            "Describe a challenging technical problem you solved.",
+            "How do you handle tight deadlines?",
+            "Describe a time you disagreed with a team member."
+        ]
+    },
+    "schedule_log": [
+        {
+            "schedule_id": "a800e208-019f-4e0d-8398-3d00efa1b868",
+            "candidate_id": "C1",
+            "interviewer_id": "I1",
+            "start_time": "2026-03-01T11:00:00",
+            "end_time": "2026-03-01T11:30:00",
+            "created_at": "2026-04-25T12:55:11.645085Z"
+        }
+    ],
+    "pipeline_history": [
+        {
+            "log_id": "84315d58-2431-481a-805c-c8247b78fe15",
+            "candidate_id": "C1",
+            "from_state": null,
+            "to_state": "applied",
+            "timestamp": "2026-04-25T12:55:11.645085",
+            "valid": true
+        },
+        {
+            "log_id": "f59cf8e7-5b33-42ab-b7d8-f7fd6b827063",
+            "candidate_id": "C1",
+            "from_state": "applied",
+            "to_state": "shortlisted",
+            "timestamp": "2026-04-25T12:55:11.645085",
+            "valid": true
+        },
+        {
+            "log_id": "f51aa0de-f424-4c9d-92db-f3c8a879f981",
+            "candidate_id": "C1",
+            "from_state": "shortlisted",
+            "to_state": "interviewed",
+            "timestamp": "2026-04-25T12:55:11.645085",
+            "valid": true
+        },
+        {
+            "log_id": "abf2c19f-6623-40a6-bdd4-d91260bbd851",
+            "candidate_id": "C1",
+            "from_state": "interviewed",
+            "to_state": "shortlisted",
+            "timestamp": "2026-04-25T12:55:11.645085",
+            "valid": false
+        }
+    ],
+    "leave_decision": {
+        "employee_id": "E1",
+        "decision": "approved",
+        "leave_type": "casual",
+        "days": 2,
+        "policy_evidence": [
+            "Role eligibility verified.",
+            "Sufficient leave balance.",
+            "No team conflict detected."
+        ]
+    },
+    "escalation": {
+        "pipeline": {
+            "escalate": true,
+            "reason": "Illegal pipeline state change attempt."
+        },
+        "leave": {
+            "escalate": false,
+            "reason": "Decision deterministic and safe."
+        },
+        "scheduling": {
+            "escalate": false,
+            "reason": "Scheduling successful."
+        }
+    }
+}
